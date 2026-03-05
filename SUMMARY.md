@@ -8,4 +8,3 @@
   * [Technical Appendix](protocol/technical-appendix.md)
 * [Economics](economics/README.md)
 * [Risks](risks/README.md)
-* [Team & Roadmap](team-roadmap/README.md)

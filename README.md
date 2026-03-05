@@ -13,7 +13,6 @@ This documentation is organized for readers who want to understand how Orbit wor
 - [Technical Appendix](./protocol/technical-appendix.md): Implementation-oriented mechanics behind pricing, liquidity, and settlement.
 - [Economics](./economics/README.md): Fees, incentives, and the role of liquidity providers, traders, and referrers.
 - [Risks](./risks/README.md): Market, liquidity, oracle, smart contract, and legal risks.
-- [Team & Roadmap](./team-roadmap/README.md): Execution plan, milestones, and governance progression.
 
 ## What Makes Orbit Different
 
