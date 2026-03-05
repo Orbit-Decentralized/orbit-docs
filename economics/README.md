@@ -42,7 +42,7 @@ Orbit also proposes a liquidity points system to reward behaviors that may be st
 - remaining active as liquidity decays over time
 - contributing tradability near expiry
 
-The final utility of points is still presented as subject to future design.
+Liquidity point utility is governed at the protocol level and can evolve with market conditions.
 
 ## Incentive Summary
 

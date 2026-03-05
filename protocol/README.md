@@ -100,7 +100,7 @@ Planned mitigation options:
 - bounded contribution rules or outlier filters with explicit governance controls
 - nonlinear weighting (for example square-root capital weighting) to reduce concentration power
 
-Final mitigation design is pending implementation benchmarking and governance review.
+Mitigation parameters are governed and may be adjusted as empirical market behavior is observed.
 
 ## Design References
 
