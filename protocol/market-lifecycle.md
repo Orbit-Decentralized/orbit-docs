@@ -22,21 +22,21 @@ As time passes, uncertainty naturally compresses. Orbit reflects that by reducin
 
 This is intended to:
 
-- shift risk away from the final moments before expiry
-- align LP exposure with residual uncertainty
-- preserve tradability without forcing static liquidity to absorb late-stage shocks
+* shift risk away from the final moments before expiry
+* align LP exposure with residual uncertainty
+* preserve tradability without forcing static liquidity to absorb late-stage shocks
 
-![Liquidity provider lifecycle](../assets/images/figure-5-lp-lifecycle.png)
+![Liquidity provider lifecycle](../.gitbook/assets/figure-5-lp-lifecycle.png)
 
 ## Phase 4: Expiry and Settlement
 
 At expiry, trading stops and the market moves into resolution. An external oracle mechanism reports the event outcome, and smart contracts settle balances deterministically.
 
-![Resolution and settlement](../assets/images/figure-4-resolution-settlement.png)
+![Resolution and settlement](../.gitbook/assets/figure-4-resolution-settlement.png)
 
-- Winning outcome tokens redeem at full value
-- Losing outcome tokens expire worthless
-- Settlement occurs on-chain without manual intervention
+* Winning outcome tokens redeem at full value
+* Losing outcome tokens expire worthless
+* Settlement occurs on-chain without manual intervention
 
 ## Participant Views Across the Lifecycle
 
@@ -44,7 +44,7 @@ From an LP perspective, participation is belief-driven before it is yield-driven
 
 From a trader perspective, the market is a continuously updating probability surface. Traders can enter, exit, or rebalance positions as information changes before expiry.
 
-![Trader interaction during active trading](../assets/images/figure-6-trader-amm-interaction.png)
+![Trader interaction during active trading](../.gitbook/assets/figure-6-trader-amm-interaction.png)
 
 ## Lifecycle Summary
 

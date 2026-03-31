@@ -6,13 +6,13 @@ Orbit's business model is designed to align incentives around useful probability
 
 Trading fees are collected when users execute against the AMM.
 
-![Fee and incentive flow](../assets/images/figure-7-fee-incentive-flow.png)
+![Fee and incentive flow](../.gitbook/assets/figure-7-fee-incentive-flow.png)
 
 The whitepaper describes three primary fee destinations:
 
-- Liquidity providers
-- Referral rewards
-- Protocol treasury
+* Liquidity providers
+* Referral rewards
+* Protocol treasury
 
 ## Liquidity Providers
 
@@ -22,9 +22,9 @@ More precisely, LP risk is a softened form of directional exposure where loss ma
 
 The protocol's economic design aims to:
 
-- reward useful liquidity rather than idle capital
-- reduce late-stage risk concentration
-- align fee capture with actual market support
+* reward useful liquidity rather than idle capital
+* reduce late-stage risk concentration
+* align fee capture with actual market support
 
 ## Traders
 
@@ -38,9 +38,9 @@ The whitepaper proposes a referral system where a share of protocol revenue is u
 
 Orbit also proposes a liquidity points system to reward behaviors that may be strategically valuable even when they are not immediately the most profitable, such as:
 
-- supporting thinner markets
-- remaining active as liquidity decays over time
-- contributing tradability near expiry
+* supporting thinner markets
+* remaining active as liquidity decays over time
+* contributing tradability near expiry
 
 Liquidity point utility is governed at the protocol level and can evolve with market conditions.
 
@@ -48,7 +48,7 @@ Liquidity point utility is governed at the protocol level and can evolve with ma
 
 Orbit's economic model is intended to reward:
 
-- LPs for supporting belief formation and trading
-- traders for correcting prices through information
-- referrers for sustainable growth
-- the protocol treasury for long-term maintenance and governance
+* LPs for supporting belief formation and trading
+* traders for correcting prices through information
+* referrers for sustainable growth
+* the protocol treasury for long-term maintenance and governance

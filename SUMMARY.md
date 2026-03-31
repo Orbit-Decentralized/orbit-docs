@@ -1,6 +1,6 @@
-# Summary
+# Table of contents
 
-* [Orbit Documentation](README.md)
+* [Orbit Documentationn](README.md)
 * [Getting Started](getting-started/README.md)
 * [Core Concepts](concepts/README.md)
 * [Protocol Design](protocol/README.md)

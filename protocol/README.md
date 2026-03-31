@@ -6,7 +6,7 @@ Orbit structures each market as a time-bounded binary event with on-chain settle
 
 The current implementation direction is Solana-native and uses Meteora DLMM as the AMM execution substrate.
 
-![How Orbit works](../assets/images/figure-2-how-orbit-works.png)
+![How Orbit works](../.gitbook/assets/figure-2-how-orbit-works.png)
 
 ## Core Components
 
@@ -14,9 +14,9 @@ The current implementation direction is Solana-native and uses Meteora DLMM as t
 
 Each market defines:
 
-- A binary YES/NO outcome
-- A clear expiry time
-- Resolution criteria for final settlement
+* A binary YES/NO outcome
+* A clear expiry time
+* Resolution criteria for final settlement
 
 Trading is not enabled at creation time.
 
@@ -24,8 +24,8 @@ Trading is not enabled at creation time.
 
 Before trading begins, liquidity providers commit:
 
-- Capital
-- A probability expectation for the YES outcome
+* Capital
+* A probability expectation for the YES outcome
 
 These commitments are aggregated into a capital-weighted probability surface. The opening price reflects committed expectations rather than arbitrary launch parameters.
 
@@ -60,10 +60,10 @@ Alternative oracle paths such as Chainlink Functions remain possible for event t
 
 Orbit supports:
 
-- Market orders for immediate execution at current probabilities
-- Limit-order-like behavior through conditional LP positions within the AMM
+* Market orders for immediate execution at current probabilities
+* Limit-order-like behavior through conditional LP positions within the AMM
 
-![Market orders vs limit orders](../assets/images/figure-3-market-vs-limit-orders.png)
+![Market orders vs limit orders](../.gitbook/assets/figure-3-market-vs-limit-orders.png)
 
 All execution remains pool-based. Users are not matched directly against each other.
 
@@ -73,10 +73,10 @@ Orbit includes an optional AI-assisted discovery and drafting layer. Its role is
 
 These AI components do not:
 
-- Set prices
-- Allocate liquidity
-- Resolve outcomes
-- Override smart contract settlement
+* Set prices
+* Allocate liquidity
+* Resolve outcomes
+* Override smart contract settlement
 
 They are support tooling, not protocol authority.
 
@@ -96,13 +96,13 @@ A capital-weighted opening price can be manipulated by large LP actors who submi
 
 Planned mitigation options:
 
-- commit-reveal for LP belief submissions before opening price computation
-- bounded contribution rules or outlier filters with explicit governance controls
-- nonlinear weighting (for example square-root capital weighting) to reduce concentration power
+* commit-reveal for LP belief submissions before opening price computation
+* bounded contribution rules or outlier filters with explicit governance controls
+* nonlinear weighting (for example square-root capital weighting) to reduce concentration power
 
 Mitigation parameters are governed and may be adjusted as empirical market behavior is observed.
 
 ## Design References
 
-- [UMA documentation](https://docs.uma.xyz)
-- [Chainlink Functions documentation](https://docs.chain.link/chainlink-functions)
+* [UMA documentation](https://docs.uma.xyz)
+* [Chainlink Functions documentation](https://docs.chain.link/chainlink-functions)

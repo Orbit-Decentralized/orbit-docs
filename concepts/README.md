@@ -10,8 +10,8 @@ For Orbit, the opportunity is not just higher trading volume. The larger goal is
 
 Most prediction markets fall into one of two structural categories:
 
-- Orderbook-based markets
-- Instant-launch AMM markets
+* Orderbook-based markets
+* Instant-launch AMM markets
 
 Both can work, but both introduce scaling problems when markets become more numerous, longer-lived, or less obviously liquid.
 
@@ -21,9 +21,9 @@ Orderbooks express probabilities clearly when enough traders are active. The pro
 
 Common failure modes:
 
-- Cold-start markets with weak initial participation
-- No useful role for passive capital
-- Poor scalability across many simultaneous markets
+* Cold-start markets with weak initial participation
+* No useful role for passive capital
+* Poor scalability across many simultaneous markets
 
 ### Instant-Launch AMM Markets
 
@@ -35,9 +35,9 @@ They also tend to ignore time-to-expiry. That makes liquidity exposure look stat
 
 Orbit is built around three ideas:
 
-- Market initialization should be grounded in committed beliefs.
-- The AMM should evolve probabilities, not invent them.
-- Liquidity exposure should change over time as uncertainty declines.
+* Market initialization should be grounded in committed beliefs.
+* The AMM should evolve probabilities, not invent them.
+* Liquidity exposure should change over time as uncertainty declines.
 
 ## Market Growth Context
 
@@ -45,19 +45,19 @@ Prediction markets have expanded rapidly across crypto-native and regulated venu
 
 Recent public reporting highlights the scale:
 
-- Polymarket 2025 volume around `$22B` (reported) with strong YoY growth
-- Kalshi 2025 volume around `$17.1B` (reported)
-- Cross-platform daily volume in early 2026 reported around `$701.7M` in peak periods
+* Polymarket 2025 volume around `$22B` (reported) with strong YoY growth
+* Kalshi 2025 volume around `$17.1B` (reported)
+* Cross-platform daily volume in early 2026 reported around `$701.7M` in peak periods
 
 These figures support the category-growth argument, but should be interpreted carefully. Independent research has argued that a meaningful share of activity on some venues may be wash-trading in certain periods. Orbit therefore treats gross volume as a directional signal, not a clean proxy for informational quality.
 
-![Weekly prediction market volume](../assets/images/figure-1-market-volume.png)
+![Weekly prediction market volume](../.gitbook/assets/figure-1-market-volume.png)
 
 The whitepaper uses this volume chart to frame the growth of the category and the need for better market infrastructure.
 
 ### Sources
 
-- [Dune Analytics chart source used in Figure 1](https://dune.com/)
-- [AInvest roundup](https://www.ainvest.com/news/polymarket-2026-volume-surge-flow-analysis-2602/)
-- [Gambling Insider 2026 statistics](https://www.gamblinginsider.com/in-depth/110180/prediction-market-statistics)
-- [Wash-trading estimate discussion](https://manifold.markets/)
+* [Dune Analytics chart source used in Figure 1](https://dune.com/)
+* [AInvest roundup](https://www.ainvest.com/news/polymarket-2026-volume-surge-flow-analysis-2602/)
+* [Gambling Insider 2026 statistics](https://www.gamblinginsider.com/in-depth/110180/prediction-market-statistics)
+* [Wash-trading estimate discussion](https://manifold.markets/)

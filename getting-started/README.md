@@ -10,10 +10,10 @@ Current implementation direction is Solana-native and built around Meteora DLMM 
 
 ## Who Participates
 
-- Liquidity providers commit capital and an initial probability view during market initialization.
-- Traders buy and sell outcome tokens as information changes over time.
-- The protocol coordinates execution, fee collection, and settlement through smart contracts.
-- External oracle infrastructure reports final outcomes for resolution.
+* Liquidity providers commit capital and an initial probability view during market initialization.
+* Traders buy and sell outcome tokens as information changes over time.
+* The protocol coordinates execution, fee collection, and settlement through smart contracts.
+* External oracle infrastructure reports final outcomes for resolution.
 
 ## Market Lifecycle at a Glance
 
@@ -26,13 +26,13 @@ Current implementation direction is Solana-native and built around Meteora DLMM 
 
 ## Orbit in One Diagram
 
-![How Orbit works](../assets/images/figure-2-how-orbit-works.png)
+![How Orbit works](../.gitbook/assets/figure-2-how-orbit-works.png)
 
 Orbit separates market creation, belief-based liquidity formation, active trading, dynamic liquidity adjustment, and resolution into distinct stages. That separation is the core of the protocol design.
 
 ## Suggested Reading Order
 
-1. [Core Concepts](../concepts/README.md)
-2. [Protocol Design](../protocol/README.md)
+1. [Core Concepts](../concepts/)
+2. [Protocol Design](../protocol/)
 3. [Market Lifecycle](../protocol/market-lifecycle.md)
-4. [Risks](../risks/README.md)
+4. [Risks](../risks/)
